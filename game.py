@@ -20,6 +20,11 @@ while counter <5:
         break       
 
 
+if user_number  == random_number:
+    print("you win!")
+else:
+    print("game over you lose! the correct number is")
+    print(random_number)
 
 
 
